@@ -15,20 +15,20 @@
   },
   "buienradar": {
    "likes": 2,
-   "rating": 4,
-   "ratings": 5,
+   "rating": 4.2,
+   "ratings": 6,
    "homes": 9
   },
   "cinema": {
    "likes": 2,
    "rating": null,
-   "ratings": 1,
+   "ratings": 2,
    "homes": 1
   },
   "custom_card": {
    "likes": 15,
    "rating": 4.5,
-   "ratings": 17,
+   "ratings": 18,
    "homes": 25
   },
   "dwd_rain": {
@@ -71,7 +71,7 @@
    "likes": 3,
    "rating": null,
    "ratings": 1,
-   "homes": 11
+   "homes": 10
   },
   "ov_departures": {
    "likes": 3,
@@ -92,9 +92,9 @@
    "homes": 6
   },
   "picture_frame": {
-   "likes": 1,
-   "rating": null,
-   "ratings": 2,
+   "likes": 2,
+   "rating": 3.7,
+   "ratings": 3,
    "homes": 12
   },
   "pollen": {
@@ -131,7 +131,7 @@
    "likes": 2,
    "rating": 4.5,
    "ratings": 4,
-   "homes": 9
+   "homes": 8
   },
   "thermo_dial": {
    "likes": 2,
@@ -148,7 +148,7 @@
   "toothbrush": {
    "likes": 1,
    "rating": null,
-   "ratings": 0,
+   "ratings": 2,
    "homes": 3
   },
   "vinyl_deck": {
@@ -160,8 +160,8 @@
   "voice_assist": {
    "likes": 10,
    "rating": 4.7,
-   "ratings": 12,
-   "homes": 15
+   "ratings": 13,
+   "homes": 16
   },
   "waste_collection": {
    "likes": 9,
