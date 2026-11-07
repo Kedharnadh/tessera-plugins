@@ -26,15 +26,15 @@
    "homes": 1
   },
   "custom_card": {
-   "likes": 15,
-   "rating": 4.5,
-   "ratings": 18,
-   "homes": 25
+   "likes": 16,
+   "rating": 4.6,
+   "ratings": 20,
+   "homes": 26
   },
   "dwd_rain": {
    "likes": 1,
-   "rating": 3.7,
-   "ratings": 3,
+   "rating": 3.6,
+   "ratings": 5,
    "homes": 4
   },
   "electricity_price": {
@@ -62,16 +62,16 @@
    "homes": 32
   },
   "guition_relays": {
-   "likes": 0,
+   "likes": 1,
    "rating": 5,
-   "ratings": 7,
+   "ratings": 8,
    "homes": 10
   },
   "new_music": {
    "likes": 3,
    "rating": null,
    "ratings": 1,
-   "homes": 10
+   "homes": 11
   },
   "ov_departures": {
    "likes": 3,
@@ -100,7 +100,7 @@
   "pollen": {
    "likes": 1,
    "rating": null,
-   "ratings": 0,
+   "ratings": 1,
    "homes": 1
   },
   "scmt": {
@@ -118,13 +118,13 @@
   "status_tile": {
    "likes": 1,
    "rating": 4.4,
-   "ratings": 9,
+   "ratings": 10,
    "homes": 14
   },
   "tankerkoenig": {
    "likes": 2,
-   "rating": null,
-   "ratings": 2,
+   "rating": 3.3,
+   "ratings": 3,
    "homes": 2
   },
   "tap_sound": {
@@ -142,7 +142,7 @@
   "timers": {
    "likes": 0,
    "rating": 5,
-   "ratings": 3,
+   "ratings": 4,
    "homes": 11
   },
   "toothbrush": {
@@ -158,33 +158,33 @@
    "homes": 7
   },
   "voice_assist": {
-   "likes": 10,
+   "likes": 11,
    "rating": 4.7,
-   "ratings": 13,
-   "homes": 16
+   "ratings": 14,
+   "homes": 17
   },
   "waste_collection": {
    "likes": 9,
    "rating": 4.7,
    "ratings": 13,
-   "homes": 16
+   "homes": 17
   },
   "waste_overview": {
-   "likes": 3,
+   "likes": 4,
    "rating": 4,
-   "ratings": 4,
+   "ratings": 5,
    "homes": 6
   },
   "waze_traveltime": {
    "likes": 3,
-   "rating": null,
-   "ratings": 2,
+   "rating": 4.3,
+   "ratings": 3,
    "homes": 3
   },
   "weather_warnings": {
    "likes": 1,
-   "rating": null,
-   "ratings": 2,
+   "rating": 4,
+   "ratings": 3,
    "homes": 3
   },
   "wifi_qr": {
@@ -196,8 +196,8 @@
   "world_clock": {
    "likes": 2,
    "rating": 4.8,
-   "ratings": 5,
-   "homes": 7
+   "ratings": 6,
+   "homes": 8
   }
  }
 }
