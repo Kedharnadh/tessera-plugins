@@ -10,7 +10,7 @@
   "bt_proxy": {
    "likes": 0,
    "rating": 5,
-   "ratings": 3,
+   "ratings": 4,
    "homes": 7
   },
   "buienradar": {
@@ -29,7 +29,7 @@
    "likes": 16,
    "rating": 4.6,
    "ratings": 20,
-   "homes": 27
+   "homes": 28
   },
   "dwd_rain": {
    "likes": 1,
@@ -70,7 +70,7 @@
   "new_music": {
    "likes": 3,
    "rating": null,
-   "ratings": 1,
+   "ratings": 2,
    "homes": 12
   },
   "ov_departures": {
@@ -113,7 +113,7 @@
    "likes": 2,
    "rating": 4.5,
    "ratings": 6,
-   "homes": 14
+   "homes": 15
   },
   "status_tile": {
    "likes": 1,
@@ -129,8 +129,8 @@
   },
   "tap_sound": {
    "likes": 2,
-   "rating": 4.5,
-   "ratings": 4,
+   "rating": 4.6,
+   "ratings": 5,
    "homes": 8
   },
   "thermo_dial": {
@@ -142,8 +142,8 @@
   "timers": {
    "likes": 0,
    "rating": 5,
-   "ratings": 4,
-   "homes": 11
+   "ratings": 5,
+   "homes": 12
   },
   "toothbrush": {
    "likes": 1,
@@ -154,13 +154,13 @@
   "vinyl_deck": {
    "likes": 1,
    "rating": null,
-   "ratings": 1,
+   "ratings": 2,
    "homes": 7
   },
   "voice_assist": {
    "likes": 11,
    "rating": 4.7,
-   "ratings": 14,
+   "ratings": 15,
    "homes": 17
   },
   "waste_collection": {
@@ -197,7 +197,7 @@
    "likes": 2,
    "rating": 4.8,
    "ratings": 6,
-   "homes": 8
+   "homes": 9
   }
  }
 }
