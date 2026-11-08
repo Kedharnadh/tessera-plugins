@@ -23,13 +23,13 @@
    "likes": 2,
    "rating": null,
    "ratings": 2,
-   "homes": 1
+   "homes": 2
   },
   "custom_card": {
    "likes": 16,
    "rating": 4.6,
    "ratings": 20,
-   "homes": 26
+   "homes": 27
   },
   "dwd_rain": {
    "likes": 1,
@@ -41,7 +41,7 @@
    "likes": 2,
    "rating": 4.3,
    "ratings": 6,
-   "homes": 5
+   "homes": 6
   },
   "energidata_price": {
    "likes": 1,
@@ -50,9 +50,9 @@
    "homes": 3
   },
   "energy_flow": {
-   "likes": 5,
+   "likes": 7,
    "rating": null,
-   "ratings": 0,
+   "ratings": 1,
    "homes": 5
   },
   "flip_clock": {
@@ -71,7 +71,7 @@
    "likes": 3,
    "rating": null,
    "ratings": 1,
-   "homes": 11
+   "homes": 12
   },
   "ov_departures": {
    "likes": 3,
