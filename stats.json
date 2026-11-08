@@ -28,8 +28,8 @@
   "custom_card": {
    "likes": 17,
    "rating": 4.5,
-   "ratings": 21,
-   "homes": 27
+   "ratings": 22,
+   "homes": 28
   },
   "dwd_rain": {
    "likes": 1,
@@ -41,7 +41,7 @@
    "likes": 2,
    "rating": 4.3,
    "ratings": 6,
-   "homes": 5
+   "homes": 6
   },
   "energidata_price": {
    "likes": 1,
@@ -58,8 +58,8 @@
   "flip_clock": {
    "likes": 11,
    "rating": 4.1,
-   "ratings": 26,
-   "homes": 35
+   "ratings": 27,
+   "homes": 34
   },
   "guition_relays": {
    "likes": 1,
@@ -143,7 +143,7 @@
    "likes": 2,
    "rating": 4.5,
    "ratings": 4,
-   "homes": 11
+   "homes": 12
   },
   "timers": {
    "likes": 0,
@@ -173,7 +173,7 @@
    "likes": 9,
    "rating": 4.7,
    "ratings": 13,
-   "homes": 17
+   "homes": 18
   },
   "waste_overview": {
    "likes": 4,
@@ -195,8 +195,8 @@
   },
   "wifi_qr": {
    "likes": 4,
-   "rating": 5,
-   "ratings": 3,
+   "rating": 4,
+   "ratings": 4,
    "homes": 5
   },
   "world_clock": {
