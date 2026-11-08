@@ -10,13 +10,13 @@
   "bt_proxy": {
    "likes": 0,
    "rating": 5,
-   "ratings": 4,
-   "homes": 7
+   "ratings": 5,
+   "homes": 8
   },
   "buienradar": {
    "likes": 2,
-   "rating": 4.2,
-   "ratings": 6,
+   "rating": 4.3,
+   "ratings": 7,
    "homes": 9
   },
   "cinema": {
@@ -26,10 +26,10 @@
    "homes": 2
   },
   "custom_card": {
-   "likes": 16,
-   "rating": 4.6,
-   "ratings": 20,
-   "homes": 28
+   "likes": 17,
+   "rating": 4.5,
+   "ratings": 21,
+   "homes": 27
   },
   "dwd_rain": {
    "likes": 1,
@@ -41,7 +41,7 @@
    "likes": 2,
    "rating": 4.3,
    "ratings": 6,
-   "homes": 6
+   "homes": 5
   },
   "energidata_price": {
    "likes": 1,
@@ -52,25 +52,25 @@
   "energy_flow": {
    "likes": 7,
    "rating": null,
-   "ratings": 1,
-   "homes": 5
+   "ratings": 2,
+   "homes": 6
   },
   "flip_clock": {
-   "likes": 10,
-   "rating": 4,
-   "ratings": 24,
-   "homes": 32
+   "likes": 11,
+   "rating": 4.1,
+   "ratings": 26,
+   "homes": 35
   },
   "guition_relays": {
    "likes": 1,
    "rating": 5,
-   "ratings": 8,
+   "ratings": 9,
    "homes": 10
   },
   "new_music": {
-   "likes": 3,
-   "rating": null,
-   "ratings": 2,
+   "likes": 4,
+   "rating": 4.7,
+   "ratings": 3,
    "homes": 12
   },
   "ov_departures": {
@@ -111,15 +111,21 @@
   },
   "screen_camera": {
    "likes": 2,
-   "rating": 4.5,
-   "ratings": 6,
-   "homes": 15
+   "rating": 4.4,
+   "ratings": 7,
+   "homes": 16
   },
   "status_tile": {
    "likes": 1,
    "rating": 4.4,
    "ratings": 10,
    "homes": 14
+  },
+  "sweden_public_transport": {
+   "likes": 0,
+   "rating": null,
+   "ratings": 1,
+   "homes": 0
   },
   "tankerkoenig": {
    "likes": 2,
@@ -131,7 +137,7 @@
    "likes": 2,
    "rating": 4.6,
    "ratings": 5,
-   "homes": 8
+   "homes": 9
   },
   "thermo_dial": {
    "likes": 2,
@@ -171,15 +177,15 @@
   },
   "waste_overview": {
    "likes": 4,
-   "rating": 4,
-   "ratings": 5,
+   "rating": 3.5,
+   "ratings": 6,
    "homes": 6
   },
   "waze_traveltime": {
    "likes": 3,
    "rating": 4.3,
    "ratings": 3,
-   "homes": 3
+   "homes": 4
   },
   "weather_warnings": {
    "likes": 1,
