@@ -58,7 +58,7 @@
   "flip_clock": {
    "likes": 11,
    "rating": 4.1,
-   "ratings": 27,
+   "ratings": 30,
    "homes": 34
   },
   "guition_relays": {
@@ -81,9 +81,9 @@
   },
   "photo_clock": {
    "likes": 2,
-   "rating": null,
-   "ratings": 2,
-   "homes": 11
+   "rating": 4.3,
+   "ratings": 3,
+   "homes": 12
   },
   "photo_slideshow": {
    "likes": 3,
@@ -167,7 +167,7 @@
    "likes": 11,
    "rating": 4.7,
    "ratings": 15,
-   "homes": 19
+   "homes": 20
   },
   "waste_collection": {
    "likes": 9,
@@ -201,8 +201,8 @@
   },
   "world_clock": {
    "likes": 2,
-   "rating": 4.9,
-   "ratings": 7,
+   "rating": 4.8,
+   "ratings": 8,
    "homes": 10
   }
  }
