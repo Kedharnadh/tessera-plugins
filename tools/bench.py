@@ -422,7 +422,7 @@ def adds(entry, folder):
     code = '\n'.join(path.read_text(encoding='utf-8', errors='replace')
                      for path in sorted((folder / 'components').rglob('*')) if path.suffix in ('.h', '.cpp', '.hpp', '.c'))
     manifest = entry.manifest
-    out = {'tiles': [{'id': k['id'], 'name': entry.text(k['name']), 'sizes': f'{k["min"]} to {k["max"]}' + (', and the whole page' if k.get('full') else ''),
+    out = {'tiles': [{'id': k['id'], 'name': entry.text(k['name']), 'sizes': 'only the whole page' if not k.get('min') else f'{k["min"]} to {k["max"]}' + (', and the whole page' if k.get('full') else ''),
                       'memory': k['memory'], 'data': 'a fetch' if k.get('data') else 'an entity' if k.get('domains') else 'none'}
                      for k in manifest['tiles']],
            'cards': [{'id': c['id'], 'name': entry.text(c['name'])} for c in manifest['cards']],
@@ -516,6 +516,8 @@ def size_name(columns, rows, grid, full=False):
 
 def spans(kind):
     """Every columns x rows between the tile's min and max, smallest first."""
+    if not kind.get('min'):
+        return []  # only the whole page (plugin API 0.25)
     low, high = (tuple(int(n) for n in kind[key].split('x')) for key in ('min', 'max'))
     return [f'{c}x{r}' for r in range(low[1], high[1] + 1) for c in range(low[0], high[0] + 1)]
 
