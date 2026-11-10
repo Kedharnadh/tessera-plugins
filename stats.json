@@ -59,7 +59,7 @@
    "likes": 14,
    "rating": 4.2,
    "ratings": 36,
-   "homes": 35
+   "homes": 36
   },
   "guition_relays": {
    "likes": 1,
@@ -149,10 +149,10 @@
    "likes": 0,
    "rating": 5,
    "ratings": 5,
-   "homes": 14
+   "homes": 15
   },
   "toothbrush": {
-   "likes": 1,
+   "likes": 2,
    "rating": null,
    "ratings": 2,
    "homes": 4
@@ -171,8 +171,8 @@
   },
   "waste_collection": {
    "likes": 9,
-   "rating": 4.7,
-   "ratings": 13,
+   "rating": 4.6,
+   "ratings": 14,
    "homes": 21
   },
   "waste_overview": {
@@ -200,9 +200,9 @@
    "homes": 6
   },
   "world_clock": {
-   "likes": 2,
-   "rating": 4.8,
-   "ratings": 8,
+   "likes": 3,
+   "rating": 4.4,
+   "ratings": 10,
    "homes": 11
   }
  }

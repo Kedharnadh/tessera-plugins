@@ -22,7 +22,7 @@
   "tankerkoenig": 2,
   "tap_sound": 2,
   "thermo_dial": 2,
-  "toothbrush": 1,
+  "toothbrush": 2,
   "vinyl_deck": 1,
   "voice_assist": 11,
   "waste_collection": 9,
@@ -30,6 +30,6 @@
   "waze_traveltime": 3,
   "weather_warnings": 1,
   "wifi_qr": 4,
-  "world_clock": 2
+  "world_clock": 3
  }
 }
