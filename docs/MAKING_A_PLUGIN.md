@@ -71,7 +71,8 @@ tiles:
   - id: next
     name: tile_name                 # a key in translations/en.json, part "app"
     icon: bus
-    sizes: { min: 1x1, max: 2x2 }   # the sizes the editor offers
+    sizes: { min: 1x1, max: 2x2 }   # the sizes the editor offers; add full: true for the whole page, or use only
+                                    # full: true for a tile that always fills it (plugin API 0.25, docs/MANIFEST.md)
     memory: 900                     # what one tile costs of the screen's layout memory
     data: departures                # the fetch whose answer the tile gets (leave out for none)
     options:                        # what the inspector shows
