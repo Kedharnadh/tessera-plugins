@@ -9,8 +9,8 @@
   },
   "bt_proxy": {
    "likes": 0,
-   "rating": 4.4,
-   "ratings": 7,
+   "rating": 4.1,
+   "ratings": 9,
    "homes": 11
   },
   "buienradar": {
@@ -28,8 +28,8 @@
   "custom_card": {
    "likes": 20,
    "rating": 4.6,
-   "ratings": 28,
-   "homes": 34
+   "ratings": 31,
+   "homes": 35
   },
   "dwd_rain": {
    "likes": 1,
@@ -50,7 +50,7 @@
    "homes": 3
   },
   "energy_flow": {
-   "likes": 8,
+   "likes": 9,
    "rating": 3,
    "ratings": 3,
    "homes": 6
@@ -58,20 +58,20 @@
   "flip_clock": {
    "likes": 14,
    "rating": 4.2,
-   "ratings": 36,
-   "homes": 36
+   "ratings": 39,
+   "homes": 38
   },
   "guition_relays": {
    "likes": 1,
    "rating": 5,
-   "ratings": 10,
+   "ratings": 11,
    "homes": 11
   },
   "new_music": {
    "likes": 4,
    "rating": 4.7,
    "ratings": 3,
-   "homes": 12
+   "homes": 13
   },
   "ov_departures": {
    "likes": 3,
@@ -93,14 +93,14 @@
   },
   "picture_frame": {
    "likes": 2,
-   "rating": 4,
-   "ratings": 4,
-   "homes": 13
+   "rating": 4.3,
+   "ratings": 6,
+   "homes": 14
   },
   "pollen": {
    "likes": 1,
    "rating": null,
-   "ratings": 1,
+   "ratings": 2,
    "homes": 1
   },
   "scmt": {
@@ -113,12 +113,12 @@
    "likes": 4,
    "rating": 4.6,
    "ratings": 9,
-   "homes": 18
+   "homes": 19
   },
   "status_tile": {
    "likes": 1,
-   "rating": 4.4,
-   "ratings": 10,
+   "rating": 4.3,
+   "ratings": 12,
    "homes": 17
   },
   "sweden_public_transport": {
@@ -129,8 +129,8 @@
   },
   "tankerkoenig": {
    "likes": 2,
-   "rating": 3.3,
-   "ratings": 3,
+   "rating": 3.5,
+   "ratings": 4,
    "homes": 2
   },
   "tap_sound": {
@@ -141,21 +141,21 @@
   },
   "thermo_dial": {
    "likes": 2,
-   "rating": 4.3,
-   "ratings": 7,
-   "homes": 16
+   "rating": 4.4,
+   "ratings": 8,
+   "homes": 17
   },
   "timers": {
    "likes": 0,
    "rating": 5,
-   "ratings": 5,
+   "ratings": 7,
    "homes": 15
   },
   "toothbrush": {
    "likes": 2,
    "rating": null,
    "ratings": 2,
-   "homes": 4
+   "homes": 5
   },
   "vinyl_deck": {
    "likes": 1,
@@ -173,13 +173,13 @@
    "likes": 9,
    "rating": 4.6,
    "ratings": 14,
-   "homes": 21
+   "homes": 22
   },
   "waste_overview": {
    "likes": 5,
-   "rating": 3.5,
-   "ratings": 6,
-   "homes": 8
+   "rating": 3.4,
+   "ratings": 7,
+   "homes": 9
   },
   "waze_traveltime": {
    "likes": 3,
