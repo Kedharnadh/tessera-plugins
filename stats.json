@@ -26,10 +26,10 @@
    "homes": 2
   },
   "custom_card": {
-   "likes": 19,
+   "likes": 20,
    "rating": 4.6,
-   "ratings": 26,
-   "homes": 33
+   "ratings": 28,
+   "homes": 34
   },
   "dwd_rain": {
    "likes": 1,
@@ -50,22 +50,22 @@
    "homes": 3
   },
   "energy_flow": {
-   "likes": 7,
-   "rating": null,
-   "ratings": 2,
+   "likes": 8,
+   "rating": 3,
+   "ratings": 3,
    "homes": 6
   },
   "flip_clock": {
    "likes": 14,
    "rating": 4.2,
-   "ratings": 35,
+   "ratings": 36,
    "homes": 35
   },
   "guition_relays": {
    "likes": 1,
    "rating": 5,
-   "ratings": 9,
-   "homes": 10
+   "ratings": 10,
+   "homes": 11
   },
   "new_music": {
    "likes": 4,
@@ -104,9 +104,9 @@
    "homes": 1
   },
   "scmt": {
-   "likes": 0,
+   "likes": 2,
    "rating": null,
-   "ratings": 0,
+   "ratings": 1,
    "homes": 2
   },
   "screen_camera": {
@@ -119,7 +119,7 @@
    "likes": 1,
    "rating": 4.4,
    "ratings": 10,
-   "homes": 16
+   "homes": 17
   },
   "sweden_public_transport": {
    "likes": 0,
@@ -141,21 +141,21 @@
   },
   "thermo_dial": {
    "likes": 2,
-   "rating": 4.2,
-   "ratings": 6,
-   "homes": 14
+   "rating": 4.3,
+   "ratings": 7,
+   "homes": 16
   },
   "timers": {
    "likes": 0,
    "rating": 5,
    "ratings": 5,
-   "homes": 13
+   "homes": 14
   },
   "toothbrush": {
    "likes": 1,
    "rating": null,
    "ratings": 2,
-   "homes": 3
+   "homes": 4
   },
   "vinyl_deck": {
    "likes": 1,
@@ -173,10 +173,10 @@
    "likes": 9,
    "rating": 4.7,
    "ratings": 13,
-   "homes": 20
+   "homes": 21
   },
   "waste_overview": {
-   "likes": 4,
+   "likes": 5,
    "rating": 3.5,
    "ratings": 6,
    "homes": 8
@@ -195,9 +195,9 @@
   },
   "wifi_qr": {
    "likes": 4,
-   "rating": 4.2,
-   "ratings": 5,
-   "homes": 5
+   "rating": 4.4,
+   "ratings": 7,
+   "homes": 6
   },
   "world_clock": {
    "likes": 2,
