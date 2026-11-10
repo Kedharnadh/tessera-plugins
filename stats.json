@@ -58,8 +58,8 @@
   "flip_clock": {
    "likes": 14,
    "rating": 4.2,
-   "ratings": 39,
-   "homes": 38
+   "ratings": 41,
+   "homes": 39
   },
   "guition_relays": {
    "likes": 1,
@@ -148,7 +148,7 @@
   "timers": {
    "likes": 0,
    "rating": 5,
-   "ratings": 7,
+   "ratings": 8,
    "homes": 15
   },
   "toothbrush": {
@@ -159,8 +159,8 @@
   },
   "vinyl_deck": {
    "likes": 1,
-   "rating": null,
-   "ratings": 2,
+   "rating": 4.7,
+   "ratings": 3,
    "homes": 7
   },
   "voice_assist": {
