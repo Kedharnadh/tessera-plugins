@@ -1,4 +1,4 @@
-# The firmware API (plugin API 0.24)
+# The firmware API (plugin API 0.25)
 
 A plugin's code runs on the screen as an ESPHome component. It talks to Tessera's core through one header:
 
@@ -9,8 +9,8 @@ A plugin's code runs on the screen as an ESPHome component. It talks to Tessera'
 The header lives in the Tessera repository at `components/smart_display/plugin_api.h`; it is the reference, and this
 page explains it. Everything is in namespace `tessera`.
 
-A manifest names the plugin API it was written for: `api: "0.8"`, or `"0.9"` up to `"0.24"` for the parts those
-brought; the plugin API 0.24 is the one the core offers now (since Tessera 0.4.91). Which cores a plugin builds on is under "Versions" at the end of this page.
+A manifest names the plugin API it was written for: `api: "0.8"`, or `"0.9"` up to `"0.25"` for the parts those
+brought; the plugin API 0.25 is the one the core offers now (on Tessera's dev branch; the release has 0.24 until the next). Which cores a plugin builds on is under "Versions" at the end of this page.
 
 A plugin adds to the screen in a few kinds of parts: tiles on a page, cards over the page, tap actions for Tessera's own
 tiles, items in the top bar, rows on the settings page, (0.14) screensavers, which the screen shows over the whole
@@ -133,6 +133,7 @@ A change of the tile's size or options makes a new object: `create()` never has 
 | `parent` | The card's drawing area. Everything goes in here. |
 | `width`, `height` | Its size in pixels, the card's padding already off. |
 | `columns`, `rows` | The grid cells the tile covers (1x1, 2x1, ...). |
+| `full` | The tile is the whole page (0.25): `columns` and `rows` are then the screen's grid. |
 | `name` | The name the tile got in the editor, `""` for none. Valid during `create()` only: copy it. |
 | `entity` | The Home Assistant entity the tile belongs to (a manifest tile with `domains`), `""` for none. Copy it. An entity of a domain Tessera draws no tile for needs the firmware after 0.56.0 ("A tile of an entity"). |
 | `tile` | The tile's index in the layout: pass it to `tessera::open_card` so the card follows the tile. |
@@ -867,7 +868,7 @@ readout by it, so the pictures, a video and whatever reads the frames all stand 
 
 ## Versions
 
-A manifest names the plugin API it was written for: `api: "0.8"` up to `"0.24"`; the plugin API 0.24 is the one the core offers now (since Tessera 0.4.91). When a
+A manifest names the plugin API it was written for: `api: "0.8"` up to `"0.25"`; the plugin API 0.25 is the one the core offers now (on Tessera's dev branch; the release has 0.24 until the next). When a
 screen is built, `smart_display.register_plugin()` compares it with the core's and stops the build with one sentence
 when it does not fit. A plugin fits a core when all three hold:
 
@@ -882,14 +883,14 @@ plugin that still uses it fails its build with the compiler's error at that call
 plugin would still build but work wrongly is listed in `PLUGIN_API_BREAKS`, in `screen_manager/app/plugin_manifest.py`
 and in `components/smart_display/__init__.py` (a test keeps the two equal), and such a plugin is refused in one
 sentence. Today the list holds one: 0.4, where `Plugin::on_tick` changed its meaning and the old one became
-`on_interval`. So with a core of 0.24:
+`on_interval`. So with a core of 0.25:
 
 | The manifest says | Builds? | Why |
 |---|---|---|
-| `api: "0.24"` | Yes | The core's own. |
-| `api: "0.5"` up to `"0.23"` | Yes | Same major, an older minor, and no break after it (unless it uses a form 0.24 took away). |
+| `api: "0.25"` | Yes | The core's own. |
+| `api: "0.5"` up to `"0.24"` | Yes | Same major, an older minor, and no break after it (unless it uses a form 0.24 took away). |
 | `api: "0.3"` | No | 0.4 changed a name it may use; the build says so in one sentence and asks to update the plugin. |
-| `api: "0.25"` | No | Newer than the core; the build asks to update the plugin or the screen's firmware. |
+| `api: "0.26"` | No | Newer than the core; the build asks to update the plugin or the screen's firmware. |
 | `api: "1.0"` | No | Another major. |
 
 `tools/check.py` applies the same rules against the core it checks with (`api_fits` of `plugin_manifest.py`), so a
@@ -925,6 +926,7 @@ brought:
 | 0.22 | `tessera::offer_own_frames`, `own_tile_wants`, `own_frame`: the screen's own camera drawn on a live tile of its own from the camera's frames, with no encoder, app or network between. |
 | 0.23 | `Capture::SOUND` for `tessera::capturing`: someone hears what the screen's microphone hears (its video with sound, a call); the screen keeps its live tiles at a quarter while it lasts, so a conversation goes before the tiles on the sending side too. |
 | 0.24 | One form for each thing; taken away, each beside a newer form: `on_touch` (use `on_press`), `tessera::action(service, entity, key, value)` (use `tessera::action(service, entity, fields)`, or no fields; `tools/check.py` refuses the old form and `on_touch`), the address `saver:picture` (use `step:`) and a tile's `memory: { bytes: n }` (write the number). `ui::picture` and `ui::set_picture` are one signature each, with defaults. |
+| 0.25 | How large a tile is: `sizes: { full: true }` for a tile that only takes the whole page, `full: true` beside `min` and `max` now offers it, a `max` that reaches the grid offers it there too; `TileContext::full` says the tile is the whole page. |
 
 A minor of the app's or the manifest's side only still counts: a plugin that uses what it brought needs an app that
 knows it ([MANIFEST.md](MANIFEST.md), "Which minor brought a field").
