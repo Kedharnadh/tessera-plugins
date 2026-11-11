@@ -27,8 +27,8 @@
   },
   "custom_card": {
    "likes": 20,
-   "rating": 4.6,
-   "ratings": 31,
+   "rating": 4.7,
+   "ratings": 32,
    "homes": 35
   },
   "dwd_rain": {
@@ -45,8 +45,8 @@
   },
   "energidata_price": {
    "likes": 1,
-   "rating": null,
-   "ratings": 2,
+   "rating": 5,
+   "ratings": 3,
    "homes": 3
   },
   "energy_flow": {
